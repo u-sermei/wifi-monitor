@@ -1,4 +1,4 @@
-# 📡 Wi-Fi Connection Monitor
+# Wi-Fi Monitor
 
 Windows上でWi-Fiの接続状態（SSID、BSSID、IPアドレスなど）をリアルタイムに確認できるGUIアプリです。
 
