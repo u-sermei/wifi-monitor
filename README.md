@@ -67,3 +67,75 @@ python -m tkinter
 
 利用目的：学習・ポートフォリオ提出用
 
+# Wi-Fi Monitor 
+
+This GUI application allows you to check Wi-Fi connection status (SSID, BSSID, IP address, etc.) in real time on Windows.
+
+--- 
+
+## 📌 Features 
+
+- Display currently connected Wi-Fi SSID 
+- Display BSSID (MAC address) 
+- Get IP address 
+- Get latest information with refresh button 
+
+--- 
+
+## 🛠 Technologies used 
+
+- Python 
+- tkinter (GUI library) 
+- subprocess (using Windows commands) 
+
+--- 
+
+## 🚀 Usage 
+
+### 1. Prerequisites 
+
+- Windows 
+- Python 3.x installed 
+ - 👉 [official download page](https://www.python.org/downloads/) 
+ - Don't forget to check “Add Python to PATH” during installation!
+
+### 2. How to run 
+
+Run the following in a command prompt or PowerShell: 
+
+``bash 
+python wifi_monitor.py 
+or double-click wifi_monitor.py.
+A window will open and display the current Wi-Fi connection information.
+
+📷 Screenshot 
+A window similar to the following will appear: 
+! [wifi display](https://github.com/user-attachments/assets/86af156b-2e0b-4a5d-a75c-8fa59a66967a) 
+
+❓ Troubleshooting 
+If the window closes momentarily 
+→ PowerShell or Open a command prompt and run the following directly: 
+
+bash 
+python wifi_monitor.py 
+If you get tkinter related errors 
+→ You may not have tkinter installed. You can check with the following command: 
+
+bash 
+python -m tkinter 
+
+If the display remains “N/A” 
+→ You may not be connected to Wi-Fi or may have failed to acquire information. Please press the “Update” button after reconnecting.
+
+🪪 License 
+This project is released under the MIT License.
+You can freely modify and reuse it.
+
+🙋‍♂️ Author Info 
+Name: u-sermei 
+
+Purpose of use: for study and portfolio submission
+
+Translated with DeepL.com (free version)
+
+
