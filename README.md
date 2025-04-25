@@ -1,73 +1,70 @@
 # Wi-Fi Monitor
 
-Windows上でWi-Fiの接続状態（SSID、BSSID、IPアドレスなど）をリアルタイムに確認できるGUIアプリです。
+This GUI application allows you to check Wi-Fi connection status (SSID, BSSID, IP address, etc.) in real time on Windows.
 
 ---
 
-## 📌 機能
+## 📌 Functions
 
-- 現在接続中のWi-Fi SSIDの表示  
-- BSSID（MACアドレス）の表示  
-- IPアドレスの取得  
-- 更新ボタンで最新情報の取得  
+- Display of currently connected Wi-Fi SSID  
+- Display of BSSID (MAC address)  
+- Obtain IP address  
+- Update button to get the latest information  
 
 ---
 
-## 🛠 使用技術
+## 🛠 Technology used
 
 - Python  
-- tkinter（GUIライブラリ）  
-- subprocess（Windowsのコマンドを利用）  
+- tkinter (GUI library)  
+- subprocess (using Windows commands)  
 
----
+--- ## 🚀 Usage
 
-## 🚀 使い方
+## 🚀 Usage
 
-### 1. 前提条件
+### 1. prerequisites
 
 - Windows  
-- Python 3.x がインストールされていること  
-  - 👉 [公式ダウンロードページ](https://www.python.org/downloads/)  
-  - インストール時に「Add Python to PATH」にチェックを忘れずに！
+- Python 3.x must be installed  
+  - 👉 [Official download page](https://www.python.org/downloads/)  
+  - Don't forget to check “Add Python to PATH” during installation!
 
-### 2. 実行方法
+### 2. How to run
 
-コマンドプロンプトまたはPowerShellで以下を実行：
+Run the following at a command prompt or in PowerShell:
 
 ```bash
 python wifi_monitor.py
-または wifi_monitor.py をダブルクリックしてください。
-ウィンドウが開き、現在のWi-Fi接続情報が表示されます。
+Or double-click on wifi_monitor.py.
+A window will open, displaying your current Wi-Fi connection information.
 
-📷 スクリーンショット
-以下のようなウィンドウが表示されます：
-![wifi表示](https://github.com/user-attachments/assets/86af156b-2e0b-4a5d-a75c-8fa59a66967a)
+📷 Screenshot
+A window will appear similar to the following:
+! [wifi display](https://github.com/user-attachments/assets/86af156b-2e0b-4a5d-a75c-8fa59a66967a)
 
-❓ トラブルシューティング
-ウィンドウが一瞬で閉じる場合
-→ PowerShell または コマンドプロンプトを開いて、以下のように直接実行してください：
+❓ Troubleshooting
+If the window closes momentarily
+→ Open PowerShell or Command Prompt and execute directly as follows
 
 bash
 python wifi_monitor.py
-tkinter 関連のエラーが出る場合
-→ tkinter がインストールされていない可能性があります。以下のコマンドで確認できます：
+If you get a tkinter related error
+→ tkinter may not be installed. You can check with the following command: bash python wifi_monitor.py
 
 bash
 python -m tkinter
 
-表示が「N/A」のままの場合
-→ Wi-Fiに接続されていない、または情報取得に失敗している可能性があります。再接続後に「更新」ボタンを押してください。
+If the display is still showing “N/A
+→ You may not be connected to Wi-Fi or may have failed to acquire information. Please press the “Update” button after reconnecting.
 
-🪪 ライセンス
-このプロジェクトは MIT ライセンス のもとで公開されています。
-自由に改変・再利用できます。
+🪪 License
+This project is released under the MIT License.
+You can freely modify and reuse it.
 
-🙋‍♂️ 作者情報
-名前：u-sermei
+🙋‍♂️ Author Info
+Name: u-sermei
 
-利用目的：学習・ポートフォリオ提出用
-
+Intended use: For study and portfolio submission
 
 Translated with DeepL.com (free version)
-
-
