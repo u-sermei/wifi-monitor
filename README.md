@@ -34,7 +34,7 @@ This GUI application allows you to check Wi-Fi connection status (SSID, BSSID, I
 
 Run the following at a command prompt or in PowerShell:
 
-```bash
+bash
 python wifi_monitor.py
 Or double-click on wifi_monitor.py.
 A window will open, displaying your current Wi-Fi connection information.
@@ -66,5 +66,6 @@ You can freely modify and reuse it.
 Name: u-sermei
 
 Intended use: For study and portfolio submission
+
 
 Translated with DeepL.com (free version)
